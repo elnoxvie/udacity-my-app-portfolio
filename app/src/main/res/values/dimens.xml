@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="button_radius">4dp</dimen>
+    <dimen name="button_width">160dip</dimen>
+</resources>

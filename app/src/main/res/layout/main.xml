@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/title"
+        style="@style/App.Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button
+        android:id="@+id/btnSpotifyStreamer"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/spotify_streamer"
+        style="@style/App.Button.Orange"
+        />
+
+    <Button
+        android:id="@+id/btnScoresApp"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/scores_app"
+        style="@style/App.Button.Orange"
+        />
+
+    <Button
+        android:id="@+id/btnLibraryApp"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/library_app"
+        style="@style/App.Button.Orange"
+        />
+
+    <Button
+        android:id="@+id/btnBuildItBigger"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/build_it_bigger"
+        style="@style/App.Button.Orange"
+        />
+
+    <Button
+        android:id="@+id/btnXyzReader"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/xyz_reader"
+        style="@style/App.Button.Orange"
+        />
+
+    <Button
+        android:id="@+id/btnCapstone1"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/button_width"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/capstone_my_project"
+        style="@style/App.Button.Red"
+        />
+</LinearLayout>
