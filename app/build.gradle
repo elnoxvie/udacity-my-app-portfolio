@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion COMPILE_SDK_VERSION as int
+    buildToolsVersion BUILT_TOOLS_VERSION as String
 
     defaultConfig {
         applicationId "com.elnware.projectzero"
-        minSdkVersion 9
-        targetSdkVersion 22
+        minSdkVersion MIN_SDK_VERSION as int
+        targetSdkVersion MAX_SDK_VERSION as int
         versionCode 1
         versionName "1.0"
     }
